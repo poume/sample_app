@@ -16,3 +16,4 @@ group :test do
 	gem 'pg', '0.12.2'
 end
 
+gem 'prototype-rails', :git => 'git://github.com/rails/prototype-rails.git'
