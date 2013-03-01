@@ -19,3 +19,7 @@ end
 gem 'jquery-rails'
 
 gem 'prototype-rails', :git => 'git://github.com/rails/prototype-rails.git'
+
+group :test do 
+gem 'webrat' 
+end
