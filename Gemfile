@@ -4,7 +4,7 @@ gem 'rails', '3.2.3'
 
 group :development do
 	gem 'rspec-rails', '2.10.0'
-	gem 'sqlite3', '1.3.5'	
+	gem 'sqlite3', 
 end
 
 group :assets do
@@ -13,7 +13,7 @@ group :assets do
 end
 
 group :test do
-	gem 'pg', '0.12.2'
+	#gem 'pg', '0.12.2'
 end
 
 gem 'jquery-rails'
@@ -22,4 +22,9 @@ gem 'prototype-rails', :git => 'git://github.com/rails/prototype-rails.git'
 
 group :test do 
 	gem 'webrat' 
+end
+
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3' 
+  gem 'pg'
 end
